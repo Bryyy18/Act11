@@ -1,0 +1,137 @@
+.flex-con1{
+    height: 50px;
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+}
+
+.flex-item1-1{
+    width: 100px;
+    height: 25px;
+    margin: 5px;
+}
+
+.item1-1{
+    flex-grow: 5;
+    background-color: darkgreen;
+}
+.item2-1{
+    flex-grow: 2;
+    background-color: gold;
+}
+
+header{
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin: 5px;
+    background-color: darkgreen;
+    border-right: 25px solid white;
+    border-left: 25px solid white;
+    border-bottom: 1px solid white;
+}
+
+h1{
+    padding: 3px;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    padding: 3px;
+}
+ 
+a{
+    padding-left: 25px;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 5px;
+    color: black;
+}
+
+a:hover{
+    color: black;
+    text-decoration-line: underline;
+    text-decoration-color: lightgreen;
+    text-decoration-thickness: 3px;
+}
+
+.div1{
+    background-color: darkgreen;
+    padding: 15px;
+    border-right: 30px solid white;
+    border-left: 30px solid white;
+    padding-bottom: 30px;
+}
+
+.h2-1{
+    text-align: center;
+}
+
+.p1{
+    text-align: center;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+section { 
+    flex: 1;
+    min-width: 300px;
+    margin: 10px; 
+    padding: 20px;
+    border: 10px solid white;
+    border-radius: 5px; 
+    background-color: white;
+    text-align: left;
+
+}
+.sec1{
+    background-color: darkgreen;
+    text-align: left;
+    border-bottom: 50px;
+    border-top: 50px;
+    border-color: gold;
+}
+
+.sec2{
+    border-bottom: 50px;
+    border-top: 50px;
+    text-align: left;
+    border-color: gold;
+    background-color: darkgreen;
+}
+
+.sec3{
+    background-color: darkgreen;
+    text-align: left;
+    border-bottom: 50px;
+    border-top: 50px;
+    border-color: gold;
+}
+
+.item1-2{
+    flex-grow: 2;
+    background-color: darkgreen;
+}
+.item2-2{
+    flex-grow: 5;
+    background-color: gold;
+    text-align: center;
+}
+
+
+footer {
+    background-color: darkgreen;
+    color: black;
+    padding: 4px;
+    text-align: center;
+    border-right: 30px solid white;
+    border-left: 30px solid white;
+}
